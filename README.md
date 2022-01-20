@@ -27,7 +27,7 @@ type SpotPrices map[AvailabilityZone][]float64
 type AvailabilityZone string
 
 // CacheLifetime to be specified as how long the cache should remain alive
-var CacheLifetime time.Time
+var CacheLifetime time.Duration
 ```
 
 ## Usage
